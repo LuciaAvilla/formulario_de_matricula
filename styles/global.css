@@ -10,7 +10,7 @@
     --brand-mid: #F3541C;
     --brand-dark: #E43A12;
     /*Font*/
-    --font-family: 'Poppins', sans-serif;
+    --font-family: "Poppins", sans-serif;
     /*Semantic*/
     --semantic-error: #DC2626;
     /*Supporting */
@@ -39,5 +39,17 @@
 }
 
 body {
+    color: var(--text-secundary);
+    font: var(--text);
     overflow: hidden;
+}
+
+h1,
+h2 {
+    color: var(--text-primary);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
