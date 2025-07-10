@@ -1,7 +1,7 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 :root {
@@ -36,4 +36,8 @@
     --text-highlight: #E43A12;
 
 
+}
+
+body {
+    overflow: hidden;
 }
